@@ -30,7 +30,7 @@ If this policy changes, the date at the top of this page will change, and a summ
 
 ## Contact
 
-Questions about this policy or any app it covers: **dcreey@gmail.com**
+Questions about this policy or any app it covers: **dcreey@gmail.com**. For app support (bugs, questions, feature requests), see [SUPPORT.md](SUPPORT.md).
 
 ## Apps covered by this policy
 
