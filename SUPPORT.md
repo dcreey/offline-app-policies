@@ -12,6 +12,6 @@ Include the app name and, if you can, your device model and iOS version — that
 
 | App | Bundle ID | Platform |
 |---|---|---|
-| [Bottle ID](https://github.com/dcreey/bottle-id) | `dev.dcreey.BottleID` | iOS |
+| [Best in Glass](https://github.com/dcreey/bottle-id) (formerly Bottle ID) | `dev.dcreey.BottleID` | iOS |
 
 See also: [Privacy Policy](README.md).
