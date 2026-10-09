@@ -13,5 +13,6 @@ Include the app name and, if you can, your device model and iOS version — that
 | App | Bundle ID | Platform |
 |---|---|---|
 | [Best in Glass](https://github.com/dcreey/bottle-id) (formerly Bottle ID) | `dev.dcreey.BottleID` | iOS |
+| [BananaBucks](https://github.com/dcreey/dinero) | `dev.dcreey.Spend` | iOS |
 
-See also: [Privacy Policy](README.md).
+See also: [Best in Glass policy](best-in-glass.md) · [BananaBucks policy](bananabucks.md).
