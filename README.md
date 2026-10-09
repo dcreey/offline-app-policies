@@ -22,6 +22,8 @@ Apps covered by this policy may store the following **only on your device**. Non
 
 - **Scan history** (Bottle ID / Best in Glass): the photos you scanned, which bottles were identified, and the bottles you looked up, kept in the app's own storage so you can revisit them. Deleting the app deletes them.
 - **Favorites and notes** (Best in Glass): the bottles you mark as favorites and any notes you type about them, kept only on your device. Deleting the app deletes them.
+- **Expenses, trips and settings** (BananaBucks): the expenses you enter (amount, currency, category, note, date, optional trip) and your language choice, kept only in the app's own storage on your device. There is no account and no sync. Deleting the app deletes them.
+- **Cached exchange rates** (BananaBucks): the latest currency exchange rates, kept on your device so expenses can be converted to US dollars offline.
 - **Cached label images**: pictures of product labels downloaded for display, kept in the app's cache.
 - **Free-scan counter** (Best in Glass): a short list of one-way hashes (fingerprints) of up to 5 photos you've scanned, kept in the iOS Keychain so a photo can be rescanned for free and the free allowance survives a reinstall. A hash cannot be turned back into the photo. The Keychain entry stays on your device; Apple may sync Keychain data you have enabled in iCloud Keychain, which is Apple's service, not ours.
 
@@ -30,6 +32,7 @@ Apps covered by this policy may store the following **only on your device**. Non
 The apps don't send your photos or searches anywhere. These narrow requests exist:
 
 - **Label images (Best in Glass / Bottle ID):** to show a sharp copy of a product's label, the app downloads it from the U.S. Treasury TTB Public COLA Registry (`ttbonline.gov`). The request names only the public label-approval ID of the bottle being shown, never your photo. Like any web request, the TTB server can see your device's IP address; the U.S. government's own privacy practices apply.
+- **Exchange rates (BananaBucks):** to convert expenses to US dollars, the app downloads a public table of currency exchange rates from `open.er-api.com`. The request is a plain download of that table and contains none of your expenses, notes or other data. Like any web request, the server can see your device's IP address, and that service's own privacy practices apply. If the request fails the app uses the last saved rates or built-in estimates.
 - **In-app purchase (Best in Glass):** unlocking scanning is a one-time purchase handled entirely by Apple (StoreKit). Apple processes the payment and gives the app a signed receipt that is checked on your device. The developer receives no payment details, account name or email.
 
 ## Outbound links
@@ -53,5 +56,6 @@ Questions about this policy or any app it covers: **dcreey@gmail.com**. For app 
 | App | Bundle ID | Platform |
 |---|---|---|
 | [Best in Glass](https://github.com/dcreey/bottle-id) (formerly Bottle ID) | `dev.dcreey.BottleID` | iOS |
+| [BananaBucks](https://github.com/dcreey/dinero) | `dev.dcreey.Spend` | iOS |
 
 To add another app to this policy, add a row to the table above in a pull request or commit — the policy text itself doesn't need to change unless that app actually does something different (in which case it shouldn't be listed here).
