@@ -1,6 +1,6 @@
 # Offline App Privacy Policy
 
-**Effective date: October 8, 2026**
+**Effective date: October 9, 2026**
 
 This is the privacy policy for apps published by Dylan Yurgionas (GitHub: [dcreey](https://github.com/dcreey)) that are covered by it — see [Apps covered by this policy](#apps-covered-by-this-policy) below. It's short because there isn't much to say: these apps don't collect anything.
 
@@ -21,6 +21,7 @@ An app covered by this policy may ask for permission to use your **camera** or *
 Apps covered by this policy may store the following **only on your device**. None of it is sent to the developer or anyone else:
 
 - **Scan history** (Bottle ID / Best in Glass): the photos you scanned, which bottles were identified, and the bottles you looked up, kept in the app's own storage so you can revisit them. Deleting the app deletes them.
+- **Favorites and notes** (Best in Glass): the bottles you mark as favorites and any notes you type about them, kept only on your device. Deleting the app deletes them.
 - **Cached label images**: pictures of product labels downloaded for display, kept in the app's cache.
 - **Free-scan counter** (Best in Glass): a short list of one-way hashes (fingerprints) of up to 5 photos you've scanned, kept in the iOS Keychain so a photo can be rescanned for free and the free allowance survives a reinstall. A hash cannot be turned back into the photo. The Keychain entry stays on your device; Apple may sync Keychain data you have enabled in iCloud Keychain, which is Apple's service, not ours.
 
